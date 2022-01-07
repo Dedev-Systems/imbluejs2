@@ -29,7 +29,7 @@ faudio.addEventListener('timeupdate', function() {
 
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
-		var url = "blue.html";
+		var url = "https://raw.githubusercontent.com/Dedev-Systems/imbluejs2/main/blue.html";
 		var title = "Idiot!";
 		
 		window.external.AddFavorite(url, title);
@@ -51,8 +51,8 @@ function openWindow(url) {
 }
 
 function proCreate() {	
-	for (var i = 0; i < 5; i++) {
-		openWindow('blue.html');
+	for (var i = 0; i < 2; i++) {
+		openWindow('https://raw.githubusercontent.com/Dedev-Systems/imbluejs2/main/blue.html');
 	}
 }
 
